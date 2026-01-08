@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 void showMenu(){
     cout<<endl;
@@ -96,6 +97,7 @@ else
  wrongAns++;
  }
   cout<<endl;
+    system("cls");
     }
 float average=marks/20.0;
 float percentage=(marks*100.0)/80.0;
@@ -123,4 +125,5 @@ if(percentage>=40)
    cout<<"Result: PASS"<<endl;
 else
    cout<<"Result: FAIL"<<endl;
+
 }
